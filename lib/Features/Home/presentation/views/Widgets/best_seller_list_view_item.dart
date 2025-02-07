@@ -1,5 +1,4 @@
 import 'package:bookly_app/Core/utils/app_router.dart';
-import 'package:bookly_app/Core/utils/assets_Data.dart';
 import 'package:bookly_app/Core/utils/styles.dart';
 import 'package:bookly_app/Features/Home/Data/Models/book_model/book_model.dart';
 import 'package:bookly_app/Features/Home/presentation/views/Widgets/book_rating.dart';
@@ -22,7 +21,7 @@ class BestSellerListViewItem extends StatelessWidget {
           children: [
             CustomBookImage(urlImage: books.volumeInfo.imageLinks.thumbnail),
             const SizedBox(
-              width: 30,
+              width: 30
             ),
             Expanded(
               child: Column(
